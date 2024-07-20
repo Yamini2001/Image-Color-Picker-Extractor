@@ -1,7 +1,6 @@
 // src/ColorPicker.js
 import React from 'react';
-import { ColorPicker } from 'react-image-color-picker';
-import 'react-image-color-picker/dist/index.css';
+import { ImageColorPicker } from 'react-image-color-picker';
 
 const ColorPickerComponent = () => {
     const handleColorChange = (color) => {
@@ -9,9 +8,9 @@ const ColorPickerComponent = () => {
     };
 
     return (
-        <div>
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
             <h1>Image Color Picker Extractor</h1>
-            <ColorPicker
+            <ImageColorPicker
                 src="https://via.placeholder.com/400"
                 onColorChange={handleColorChange}
                 zoom={2}

@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import ColorPickerComponent from './ColorPicker';
+import ColorPickerComponent from './Components/ColorPicker';
 
 function App() {
     return (
